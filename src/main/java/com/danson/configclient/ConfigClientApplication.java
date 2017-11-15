@@ -18,6 +18,7 @@ public class ConfigClientApplication {
 	String foo;
 	@RequestMapping(value = "/hi")
 	public String hi(){
+		System.out.println("11111");
 		return foo;
 	}
 
